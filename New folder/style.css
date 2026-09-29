@@ -1,0 +1,148 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family: Inter, sans-serif;
+}
+  body{
+    background:floralwhite;
+     color:black; 
+     min-height:100vh; 
+     overflow:hidden;
+    }
+  header{
+    display:flex;
+     justify-content:space-between;
+      align-items:center;
+       padding:24px 60px;
+    }
+  .logo{
+    font-weight:800;
+     font-size:18px;
+    }
+  .logo span{
+    font-weight:400; 
+    font-size:11px; 
+    display:block; 
+    margin-top:4px; 
+    opacity:.6;
+}
+  .nav{
+    display:flex; 
+    gap:16px; 
+    align-items:center;
+}
+  .btn-demo{
+    background:#FFD391;
+     border:none;
+      padding:8px 16px; 
+      border-radius:8px;
+       font-weight:600; 
+       cursor:pointer;
+    }
+  .btn-link{
+    background:none; 
+    border:none; 
+    font-weight:600;
+     cursor:pointer;
+    }
+  
+  .wrapper{
+    position:relative; 
+    height:85vh; 
+    display:flex;
+     justify-content:center;
+      align-items:center;
+    }
+  
+  .card{
+    background:white; 
+    width:380px;
+     padding:32px; 
+     border-radius:20px; 
+     box-shadow:0 20px 60px rgba(0,0,0,.07);
+      text-align:center;
+       z-index:2;
+    }
+  .card h2{
+    font-size:22px;
+     margin-bottom:6px;
+    }
+  .card p.sub{
+    font-size:13px; 
+    opacity:.6; 
+    margin-bottom:24px;
+     line-height:1.4;
+    }
+  .input{
+    width:100%; 
+    padding:12px 14px; 
+    border:1px solid #eee; 
+    border-radius:10px;
+     margin-bottom:12px; 
+     font-size:13px;
+      outline:none;
+    }
+  .input-wrap{
+    position:relative;
+}
+  .hide{
+    position:absolute;
+     right:12px;
+      top:12px; 
+      font-size:11px; 
+      opacity:.5;
+       cursor:pointer;
+    }
+  .trouble{
+    font-size:11px;
+     text-align:left;
+      margin:8px 0 18px;
+       opacity:.7;
+    }
+  .btn-sign{
+    width:100%; 
+    background:#FFD391; 
+    border:none; 
+    padding:12px; 
+    border-radius:10px; 
+    font-weight:700; 
+    cursor:pointer;
+     margin-bottom:18px;
+    }
+  .divider{
+    font-size:11px; 
+    opacity:.5; 
+    margin-bottom:16px;
+}
+  .socials{
+    display:flex;
+     gap:8px; 
+     justify-content:center;
+      margin-bottom:16px;
+    }
+  .social{
+    border:1px solid #eee;
+     padding:6px 12px;
+      border-radius:8px;
+       font-size:12px;
+        font-weight:600;
+         display:flex; 
+         align-items:center;
+          gap:4px;
+        }
+  .request{
+    font-size:11px;
+}
+  .request a{
+    color:black;
+     font-weight:700; 
+     text-decoration:none;
+    }
+  
+  footer{
+    text-align:center; 
+    font-size:10px; 
+    opacity:.5;
+     margin-top:20px;
+    }
